@@ -5,7 +5,8 @@ box-sizing:border-box;
 }
 body{
     font-family: 'popins',sans-serif;
-    background: #04dd3a;
+    background: url(../img/hero.jpg) no-repeat center center/cover;
+    color: white;
 }
 header{
     
@@ -26,12 +27,63 @@ nav{
 a{
 color:white ;
 text-decoration:none;
-padding: 10px 20px;}
+padding: 10px 20px;
+}
+.img{
+    width:80%;
+    height:80%;
+}
 
-footer{justify-content: space-between;
-    background: green;
+footer{
+    justify-content: space-between;
+    background: blue;
     backdrop-filter:blur(10px);
     color: white;
     padding: 10px 0;
-    text-align: center;}
-   
+    text-align: center;
+}
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    background-color: aquamarine;
+}
+.hero-img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    
+}    
+
+.container{
+    display: flex;
+    max-width: 1200px;
+    margin:auto;
+    padding:20px;
+    justify-content: center;
+    align-items: center;
+} 
+.card{
+    display:flex;
+    justify-content:center;
+    flex-direction:row;
+    width:100% ;
+    height:300px;
+    border-radius:spx;
+    align-content:center;
+    flex-wrap:wrap;
+}
+.colum{
+    display:flex;
+    flex-direction:column ;
+}
+.direita{
+    display: flex;
+    flex-direction:row-reverse ;
+}
+.esquerda{
+    display:flex;
+    flex-direction:column ;
+
+}
