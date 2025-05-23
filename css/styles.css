@@ -27,3 +27,11 @@ a{
 color:white ;
 text-decoration:none;
 padding: 10px 20px;}
+
+footer{justify-content: space-between;
+    background: green;
+    backdrop-filter:blur(10px);
+    color: white;
+    padding: 10px 0;
+    text-align: center;}
+   
